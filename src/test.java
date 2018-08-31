@@ -3,8 +3,8 @@ public class test {
     {
         int a=10;
         byte b = 100;
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println(Integer.toHexString(a));
+        System.out.println(Integer.toBinaryString(b));
         System.out.println("not Hello World!");
     }
 }
